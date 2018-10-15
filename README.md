@@ -9,4 +9,8 @@ Compatibility wise, i am personally using latest Firefox Nightly and i don't pla
 
 Native messaging host (thing that can start **mpv**) is written in Python 3. At the time of writing this ReadMe, version 3.7 to be specific. I don't plan to maintain compatibility with older versions, but as always, you are free to make pull request. (i may write alternative host for out-of-the-box compatibility in the future)
 
-**WIP**
+Native messaging host needs to be registered (either in `HKLM` or `HKCU`) `\SOFTWARE\Mozilla\NativeMessagingHosts\playwithmpv` and set the `(Default)` value to path to `native-messaging-host\manifest.json`
+
+**mpv** executable needs to be in `$PATH`
+
+Default hotkey is: `Ctrl+Alt+P`
