@@ -1,0 +1,32 @@
+{
+	"manifest_version": 2,
+	"name": "Play with mpv",
+	"version": "0.1.0",
+	"description": "Play current tab's URL with mpv",
+	"homepage_url": "https://github.com/snoop05/playwithmpv",
+	"icons": {
+		"48": "icons/mpv-48.png",
+		"96": "icons/mpv-96.png"
+	},
+	"applications": {
+		"gecko": {
+			"id": "playwithmpv@snoop05.org",
+			"strict_min_version": "55.0"
+		}
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"commands": {
+		"_execute_browser_action": {
+			"suggested_key": {
+				"default": "Ctrl+Alt+P"
+			}
+		}
+	},
+	"permissions": ["activeTab", "contextMenus", "nativeMessaging"],
+	"browser_action": {
+		"default_icon": "icons/mpv-32.png",
+		"default_title": "Play with mpv"
+	}
+}
