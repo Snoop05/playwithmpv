@@ -1,0 +1,7 @@
+{
+	"name": "playwithmpv",
+	"description": "Native messaging host for mpv",
+	"path": "run_process.bat",
+	"type": "stdio",
+	"allowed_extensions": ["playwithmpv@snoop05.org"]
+}
