@@ -13,4 +13,4 @@ Native messaging host needs to be registered (either in `HKLM` or `HKCU`) `\SOFT
 
 **mpv** executable needs to be in `$PATH`
 
-Default hotkey is: `Ctrl+Alt+P`
+~~Default hotkey is: `Ctrl+Alt+P`~~
