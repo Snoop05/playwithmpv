@@ -1,6 +1,6 @@
 # Play with *mpv*
 
-Browser extension using *WebExtensions* API for playing media with *mpv* https://mpv.io/
+Browser extension using *WebExtensions* API for playing media with **mpv** *https://mpv.io/*
 
 Aims to be as minimal and simple as possible.
 Motivation for this project was that extension i was using previously had too much stuff i wasn't using, code size was massive (compared to this), had some behavior that annoyed me and (main trigger) one day it simply stopped working, so i decided to write my own.
