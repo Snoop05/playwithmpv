@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Play with mpv",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Play current tab's URL with mpv",
 	"homepage_url": "https://github.com/snoop05/playwithmpv",
 	"icons": {
